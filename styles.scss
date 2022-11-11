@@ -1,0 +1,35 @@
+.divForImage{
+    display: flex;
+    width: 35%;
+
+    img{
+        height: 100vh;
+        width: 100%;
+    }
+   
+}
+
+.divForForm{
+    display: flex;
+    flex-direction: column;
+    &__topDiv{
+        p{
+            font-size: 30PX;
+            font-weight: bolder;
+            
+        }
+
+    }
+    &__midDiv{
+        div{
+            display: flex;
+        }
+
+    }
+    &__botDiv{
+
+    }
+}
+.main{
+    display: flex;
+}
