@@ -5,6 +5,7 @@
 .divForImage img {
   height: 100vh;
   width: 100%;
+  margin-left: 0%;
 }
 
 .divForForm {
@@ -12,12 +13,43 @@
   flex-direction: column;
 }
 .divForForm__topDiv p {
-  font-size: 30PX;
-  font-weight: bolder;
+  display: flex;
+  font-size: 25PX;
+  font-family: sans-serif;
+  width: 60%;
+  margin-left: 3%;
+}
+.divForForm__topDiv__topP {
+  margin-top: 20vh;
+}
+.divForForm__topDiv__botP {
+  margin-bottom: 20px;
+}
+.divForForm__midDiv {
+  background-color: #ffffff;
+  margin-left: 3%;
+}
+.divForForm__midDiv p {
+  font-size: 25PX;
+  font-family: sans-serif;
+}
+.divForForm__midDiv input {
+  display: block;
+  margin-right: 20px;
 }
 .divForForm__midDiv div {
   display: flex;
+  margin: 25px;
 }
+.divForForm__botDiv {
+  margin-left: 3%;
+}
+.divForForm__botDiv__createAccBtn {
+  background-color: #596D48;
+  color: white;
+}
+
 .main {
   display: flex;
+  background-color: rgba(249, 250, 251, 0.4509803922);
 }/*# sourceMappingURL=styles.css.map */
